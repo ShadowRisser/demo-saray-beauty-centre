@@ -1,3 +1,3 @@
-# Saray Beauty Centre Sales-Quality Demo
+# Saray Beauty Centre local business demo
 
-Long-form outreach demo with stock-style imagery, packages, lead capture, FAQ, and automation positioning.
+Rebuilt to match reference-style local business websites: hero, services, packages, about, gallery, team, reviews, FAQ, contact, and booking.
