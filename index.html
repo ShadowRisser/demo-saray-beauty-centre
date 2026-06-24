@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saray Beauty Centre — Demo Booking Website</title>
+  <meta name="description" content="A tailored demo website concept for Saray Beauty Centre." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav><strong>Saray Beauty Centre</strong><a href="https://www.instagram.com/saray_beautycentre/" target="_blank">Instagram</a></nav>
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">Demo concept • Sharjah</p>
+        <h1>A beauty booking page made for premium appointments.</h1>
+        <p class="sub">A polished booking page for clients who discover Saray Beauty Centre on Instagram and want to quickly ask about services, availability, or offers.</p>
+        <div class="actions"><a class="btn" href="#book">Book on WhatsApp</a><a class="btn ghost" href="#services">See Services</a></div>
+      </div>
+      <div class="visual-card" aria-label="demo visual">
+        <div class="phone"><div class="notch"></div><div class="screen"><span>Elegant. Soft. Bookable.</span><strong>Saray Beauty Centre</strong><em>Beauty centre</em></div></div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="section intro">
+      <p class="eyebrow">Why this page works</p>
+      <h2>Instagram gets attention. This page turns it into bookings.</h2>
+      <p>Beauty clients already judge the vibe from Instagram. This page turns that attention into appointments by showing key services and giving a direct booking path.</p>
+    </section>
+    <section id="services" class="section">
+      <p class="eyebrow">Services</p>
+      <h2>Simple service menu built for fast decisions</h2>
+      <div class="cards"><article class="card"><h3>Hair &amp; Styling</h3><p>A clean section for blowouts, color, cuts, and styling packages.</p></article>
+<article class="card"><h3>Nails &amp; Beauty</h3><p>Manicure, pedicure, lashes, brows, and beauty add-ons.</p></article>
+<article class="card"><h3>Bridal / Event Glam</h3><p>High-value package area for weddings, parties, and special bookings.</p></article></div>
+    </section>
+    <section class="section split">
+      <div><p class="eyebrow">Automation hook</p><h2>Bookings routed to WhatsApp</h2><p>New requests can instantly send the client details to WhatsApp and organize service, date, and preferred stylist.</p></div>
+      <div class="steps"><div>1<span>Visitor chooses a service</span></div><div>2<span>They submit phone/WhatsApp</span></div><div>3<span>Auto reply + booking follow-up</span></div></div>
+    </section>
+    <section id="book" class="section booking">
+      <p class="eyebrow">Demo form</p>
+      <h2>Request a booking or quote</h2>
+      <form onsubmit="event.preventDefault(); document.querySelector('.thanks').classList.add('show')">
+        <input required placeholder="Your name" />
+        <input required placeholder="Phone / WhatsApp" />
+        <select required><option value="">Choose a service</option><option>Hair &amp; Styling</option>
+<option>Nails &amp; Beauty</option>
+<option>Bridal / Event Glam</option></select>
+        <textarea placeholder="Preferred time or details"></textarea>
+        <button>Book on WhatsApp</button>
+      </form>
+      <p class="thanks">Demo: this is where WhatsApp/email automation would trigger.</p>
+    </section>
+  </main>
+  <footer><p>Unofficial outreach demo concept. Visuals are custom placeholders, not copied from Instagram.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
